@@ -1,0 +1,60 @@
+@import '../../index.scss';
+
+.about-main {
+  @extend %border-st;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+
+  &-link-homepage {
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  &-title {
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &-text {
+    font-size: 18px;
+
+    span {
+      text-align: center;
+      display: block;
+    }
+  }
+
+  &-text-free {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  &-link {
+    display: block;
+    padding: 12px;
+    background-color: #8b00ff;
+    // border: none;
+    border-radius: 4px;
+    color: #fff !important;
+    margin-bottom: 40px;
+    outline: none;
+    box-shadow: 0px 0px 30px rgba(256, 256, 256, .1);
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+.char-item {
+  img {
+    width: 350px;
+    margin: 10px auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

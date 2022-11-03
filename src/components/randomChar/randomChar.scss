@@ -1,0 +1,24 @@
+@import '../../index.scss';
+
+
+.random-block {
+  background-color: #fff;
+  padding: 25px 25px 15px 25px;
+  margin-bottom: 40px;
+  @extend %border-st;
+
+  & h4 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .random-char-img{
+     margin: 0 auto;
+     width: 300px;
+  }
+}
+
+.term {
+  font-weight: bold;
+}
+

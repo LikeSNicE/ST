@@ -1,0 +1,8 @@
+@import '../../index.scss';
+
+.item-list{
+  @extend %border-st;
+  cursor: pointer;
+}
+
+
